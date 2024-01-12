@@ -20,7 +20,7 @@ const Project = () => {
         </h2>
         <div className={style.project}>
           <div className={style.pofol}>
-            <Link to="/nutti">
+            <Link to={`${process.env.PUBLIC_URL}/nutti}`}>
               <img
                 src={`${process.env.PUBLIC_URL}/images/1home.png`}
                 alt="nutti"
