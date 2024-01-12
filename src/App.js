@@ -8,8 +8,8 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path={process.env.PUBLIC_URL + "/"} element={<Main />} />
-        <Route path={process.env.PUBLIC_URL + "/nutti"} element={<Nutti />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/nutti" element={<Nutti />} />
       </Routes>
     </>
   );
