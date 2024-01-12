@@ -1,0 +1,63 @@
+.projects {
+  height: 200vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.projects .container {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #000;
+}
+.projects .container h2 {
+  font-size: 2.5em;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  margin: 15vh 6vw 0 3vw;
+  width: 100px;
+}
+.projects .container .project {
+  height: 100vh;
+  width: 100%;
+  border-left: 1px solid #000;
+  display: flex;
+  align-items: end;
+  box-sizing: border-box;
+}
+
+.projects .container .project .pofol {
+  width: 400px;
+  height: 62vh;
+  background-color: #ddd;
+  border: 1px solid #000;
+  margin: 0 50px 110px;
+}
+.projects .container .mySwiper {
+  height: 100vh;
+  width: 100%;
+  padding-left: 50px;
+  position: relative;
+  border-left: 1px solid #000;
+}
+.projects .container .mySwiper .pofolSlide {
+  width: 400px !important;
+  height: 62vh;
+  background-color: #ddd;
+  border: 1px solid #000;
+  position: absolute;
+  bottom: 110px;
+  left: 0;
+}
+.projects .container .mySwiper .pofolSlide:nth-child(2) {
+  left: 500px;
+}
+.projects .container .mySwiper .pofolSlide:nth-child(3) {
+  left: 1000px;
+}
+.projects .container .mySwiper .pofolSlide:nth-child(4) {
+  left: 1500px;
+}
+
+.projects .container .project .pofol img {
+  width: 100%;
+  height: 100%;
+}

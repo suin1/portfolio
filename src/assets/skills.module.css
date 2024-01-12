@@ -1,0 +1,66 @@
+.skills {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.skills .skillH2 {
+  width: 100px;
+  font-size: 2.5em;
+  color: #fff;
+  -webkit-text-stroke: 1px #000;
+  margin: 15vh 6.45vw 0 3vw;
+}
+
+.skills .skillbox {
+  border-left: 1px solid #000;
+  width: 100%;
+}
+
+.skills .skillbox .skill {
+  border-bottom: 1px solid #000;
+  padding: 15vh 6vw;
+}
+.skills .skillbox .skill:nth-child(3) {
+  border-bottom: none;
+}
+
+.skills .skillbox .skill .smallSkill {
+  font-size: 2.3em;
+  margin: 0;
+  padding: 10px 0;
+}
+.skills .skillbox .skill .smallbox {
+  width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+.skills .skillbox .skill:nth-child(1) .smallbox:nth-child(4) {
+  border-bottom: none;
+}
+.skills .skillbox .skill:nth-child(2) .smallbox:nth-child(3) {
+  border-bottom: none;
+}
+.skills .skillbox .skill:nth-child(3) .smallbox:nth-child(3) {
+  border-bottom: none;
+}
+
+.skills .skillbox .skill .smallbox h4 {
+  font-size: 2em;
+  font-weight: 400;
+  width: 30vw;
+  text-align: center;
+  margin: 0;
+}
+
+.skills .skillbox .skill .smallbox ul {
+  width: 30vw;
+}
+
+.skills .skillbox .skill .smallbox ul li {
+  margin: 8px 0;
+  line-height: 35px;
+}
