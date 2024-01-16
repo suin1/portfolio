@@ -20,15 +20,17 @@ const Project = () => {
         </h2>
         <div className={style.project}>
           <div className={style.pofol}>
-            <Link to="/nutti">
+            <a href="https://github.com/suin1/nutti" target="_blank">
               <img
                 src={`${process.env.PUBLIC_URL}/images/1home.png`}
                 alt="nutti"
               />
-            </Link>
+            </a>
           </div>
           <div className={style.pofol}>
-            <a href={`${process.env.PUBLIC_URL}/images/project_report2.pdf`}>
+            <a
+              href="https://github.com/suin1/busan?tab=readme-ov-file"
+              target="_blank">
               <img
                 src={`${process.env.PUBLIC_URL}/images/busan.png`}
                 alt="busan"
